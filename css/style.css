@@ -1,0 +1,66 @@
+#Home{
+    text-align: center;
+    margin: 30px 80px 10px;
+    background-color: #eff4fd;
+}
+h3{
+    padding-bottom: 10px;
+}
+.navbar{
+    text-align: left;
+}
+.nav-item{
+    padding: 0px 5px ;
+}
+.nav-item:hover{
+    color: red;
+}
+.nav-link{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 1rem;
+}
+/* Information Part */
+#details{
+    margin: 0 90px;
+}
+.row{
+    padding-top: 15px;
+}
+.mum-image{
+    width: 100%;
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 0.5s;
+}
+.mum-image:hover{
+    left: 45%;
+}
+span{
+    color: red;
+}
+.content{
+    line-height: 2.5;
+    padding-top: 15%;
+    width: 50px;
+}
+p{
+    color: grey;
+    line-height: 1.5rem;    
+}
+
+/* Advanced Media Query Section based on view ports */
+@media (max-width: 500px){
+    #details{
+        margin: 0 20px;
+    }
+}
+@media (max-width: 700px){
+    #details{
+        margin: 0 30px;
+    }
+    #Home{
+        margin: 30px 30px 10px;
+    }
+}
